@@ -8,6 +8,7 @@ import TimeNap from './TimeNap';
 import Espufi from './Espufi';
 
 
+
 const Home = () => {
     return (
         <div id="view-home">
@@ -18,6 +19,7 @@ const Home = () => {
            <TimeCart />
            <TimeNap />
            <Espufi />
+           
         </div>
         
     )
