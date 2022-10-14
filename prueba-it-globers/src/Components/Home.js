@@ -6,6 +6,7 @@ import TimePuff from './TimePuff';
 import TimeCart from './TimeCart';
 import TimeNap from './TimeNap';
 import Espufi from './Espufi';
+import Footer from './Footer';
 
 
 
@@ -19,7 +20,7 @@ const Home = () => {
            <TimeCart />
            <TimeNap />
            <Espufi />
-           
+           <Footer />
         </div>
         
     )

@@ -1,7 +1,9 @@
 import React from 'react'
+import styles from "./Carousel.module.css";
 
 const Carousel = () => {
     return (
+      <div className={styles.container}>
         <div id='carouselExampleIndicators' class="carousel slide" data-bs-ride="true">
             <div class="carousel-indicators">
                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -27,11 +29,12 @@ const Carousel = () => {
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
-            <div>
-               <h1>ESTÁR CÓMODO NUNCA FUE TAN FÁCIL</h1>
-               <button>SHOP</button>
+            <div className={styles.container2}>
+               <h1 className={styles.texto1}>ESTÁR CÓMODO NUNCA FUE TAN FÁCIL</h1>
+               <button className={styles.texto2}>SHOP</button>
             </div>
         </div>
+      </div>
     );
 };
 

@@ -1,0 +1,45 @@
+#card {
+    display : flex;
+    flex-direction : row;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+    justify-content: center
+}
+
+.imgFluid {
+    background-image: url('https://i.imgur.com/Qy7RXn1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#container .button {
+ position: absolute;
+ top: 55%;
+ left:18%;
+ transform: translate(-50%,-50%);
+ -ms-transform:translate(-50%,-50%);
+ border-color: red;
+ border-radius: 15%;
+ color: rgb(15, 15, 15);
+ font-weight: 600;
+ padding: 10px 20px;
+ font-size: 16px;
+ background-color: transparent;
+}
+
+.contBolsa {
+    width: 11%;
+    position: relative;
+    left: 44%;
+    padding: 10px 24px;
+}
+
+.content {
+    align-content: center;
+    margin-bottom: 30px;
+}
+
+.signo {
+    width: 2%;
+}

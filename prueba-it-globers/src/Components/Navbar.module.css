@@ -1,0 +1,31 @@
+#navbar {
+    background-color: transparent !important;
+    justify-content: center;
+}
+
+.logo {
+    width: 19%;
+}
+
+.containerNav {
+    display: flex;
+}
+
+.navMenu {
+    list-style: none;
+    display: flex;
+}
+
+.logosNav {
+    width: 42%;
+}
+
+#myAccount {
+    border: none;
+    background-color: transparent;
+}
+
+.myShopping {
+    text-decoration: none;
+    color: black;
+}
