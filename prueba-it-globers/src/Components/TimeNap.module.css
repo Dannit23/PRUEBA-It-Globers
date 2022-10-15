@@ -1,18 +1,18 @@
 #card {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border: none;
+    border:none;   
 }
 
 .imgCard {
     position: relative;
     left: 0%;
-    margin-bottom: -22px; 
+    margin-bottom: -20px;
 }
 
 .button {
-    position: absolute;
-    top: 50%;
+    position:absolute;
+    top:50%;
     right: 20%;
     transform: translate(-50%,-50%);
     -ms-transform:translate(-50%,-50%);
@@ -23,12 +23,12 @@
     padding: 10px 20px;
     font-size: 16px;
     background-color: transparent; 
-}
+   }
 
-.iCard{
+.iNap {
     width: 38%;
     position: relative;
-    left:30%;
+    left:32%;
 }
 
 .content {

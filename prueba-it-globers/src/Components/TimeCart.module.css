@@ -1,43 +1,42 @@
 #card {
-    display : flex;
-    flex-direction : row;
-    margin: 0 auto;
-    justify-items: center;
-    align-items: center;
-    justify-content: center
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border:none;
 }
 
 .imgFluid {
-    background-image: url('https://i.imgur.com/Qy7RXn1.jpg');
-    background-size: cover;
-    background-position: center;
+    position: relative;
+    right: 38%; 
+    margin-bottom: -22px;
+
 }
 
 #container .button {
  position: absolute;
  top: 55%;
- left:18%;
+ left: 23%;
  transform: translate(-50%,-50%);
  -ms-transform:translate(-50%,-50%);
  border-color: red;
  border-radius: 15%;
  color: rgb(15, 15, 15);
- font-weight: 600;
+ font-weight: 650;
  padding: 10px 20px;
  font-size: 16px;
  background-color: transparent;
 }
 
-.contBolsa {
-    width: 11%;
+.bolsa {
+    width: 100px;
     position: relative;
-    left: 44%;
-    padding: 10px 24px;
+    left:40%;
 }
 
-.content {
-    align-content: center;
-    margin-bottom: 30px;
+.contBolsa {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70%;
+    margin-right: -150%;
 }
 
 .signo {

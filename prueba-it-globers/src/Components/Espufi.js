@@ -1,17 +1,20 @@
 import React from 'react'
 import Contact from './Contact'
+import styles from "./Espufi.module.css";
 
 const Espufi = () => {
     return (
         <div class="seccion-espufi">
-           <h5>INSTAGRAM</h5>
+           <h6>INSTAGRAM</h6>
            <h2>#ESPUFI</h2>
            <span>
-                <img src="https://i.imgur.com/VTk4jza.jpg" class="collage" alt="collage"></img>
+                <img className={styles.collage} src="https://i.imgur.com/VTk4jza.jpg" alt="collage"></img>
             </span>
-            <h5>NEWSLETTER</h5>
-            <h2>SUSCRIBITE</h2>
-            <h6>Y enterate de todas las novedades</h6>
+            <div className={styles.datos}>
+               <h6>NEWSLETTER</h6>
+               <h2>SUSCRIBITE</h2>
+               <h6>Y enterate de todas las novedades</h6>
+            </div>
             <div>
               <Contact />
             </div>
