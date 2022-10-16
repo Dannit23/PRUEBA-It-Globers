@@ -1,0 +1,19 @@
+.iconoFlecha {
+    width: 30%;
+}
+
+input {
+    padding: 0px 15px;
+    width: 400px;
+    height: 40px;
+}
+
+.button {
+    border: none;
+    background-color: transparent;
+    bottom: 0;
+    top: 0;
+    right: 0px;
+    transform: translate(-95%, -5%);    
+}
+

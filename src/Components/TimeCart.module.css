@@ -1,0 +1,44 @@
+#card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border:none;
+}
+
+.imgFluid {
+    position: relative;
+    right: 38%; 
+    margin-bottom: -22px;
+
+}
+
+#container .button {
+ position: absolute;
+ top: 55%;
+ left: 23%;
+ transform: translate(-50%,-50%);
+ -ms-transform:translate(-50%,-50%);
+ border-color: red;
+ border-radius: 15%;
+ color: rgb(15, 15, 15);
+ font-weight: 650;
+ padding: 10px 20px;
+ font-size: 16px;
+ background-color: transparent;
+}
+
+.bolsa {
+    width: 100px;
+    position: relative;
+    left:40%;
+}
+
+.contBolsa {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70%;
+    margin-right: -150%;
+}
+
+.signo {
+    width: 2%;
+}

@@ -1,0 +1,80 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    padding:20px;
+    gap: 15px;
+}
+
+#sec2 a, #sec3 a, #sec4 a, #sec5 a {
+ color: black;
+ text-decoration: none;
+ flex-grow: 1;
+}
+
+.logo {
+    width: 30%;
+}
+
+#sec1 {
+    display: flex;
+    flex-grow: 1;
+}
+
+.list {
+    list-style: none;
+    display: inline;
+    padding:0px;
+}
+
+.listProduct {
+    width: 80%;
+}
+
+#sec4 {
+    flex-direction: column;
+}
+
+#sec5 {
+    display: flex;
+    flex: auto;
+    width: 5%;
+}
+
+
+.qr, .protected {
+    width:8%;
+}
+
+.csecure {
+    display: flex;
+    
+}
+
+.logos {
+    width: 30%;
+}
+
+.copyright {
+    color: gray;
+}
+
+.logoBrand {
+    width: 20%;
+}
+
+.cell2 {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    gap:15px;
+    align-items: center;
+}
+
+.copy {
+    display: flex;
+    justify-content: space-between;
+}

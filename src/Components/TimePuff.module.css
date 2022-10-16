@@ -1,0 +1,49 @@
+#card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: none;
+}
+
+.imgCard {
+    position: relative;
+    left: 0%;
+    margin-bottom: -22px; 
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    border-color: red;
+    border-radius: 15%;
+    color: rgb(15, 15, 15);
+    font-weight: 650;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: transparent; 
+}
+
+.iCard{
+    width: 38%;
+    position: relative;
+    left:30%;
+}
+
+.content {
+    align-content: center;
+    margin-left:0%;
+    width: 90%;
+}
+   
+#container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25%;
+    margin-left: 30%;
+}
+
+.signo {
+    width: 7%;
+}

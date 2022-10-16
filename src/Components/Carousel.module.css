@@ -1,0 +1,19 @@
+.container .container2 {
+    width: 100vw;
+    position: absolute;
+    top: 65%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+}
+
+.texto2 {
+    border-color: red;
+    border-radius: 15%;
+    color: rgb(15, 15, 15);
+    font-weight: 650;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: transparent;
+    
+}
