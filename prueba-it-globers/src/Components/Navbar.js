@@ -5,7 +5,7 @@ const Navbar = () => {
 return (
     <nav className='navbar fixed-top bg-light' id={styles.navbar}>
         <div className={styles.containerNav}>
-            <a href='#Home' className='Navbar-brand'>
+            <a href='#Home' className='Navbar-brand'  id={styles.contLogo}>
                <img className={styles.logo} src='https://i.imgur.com/xreXa6i.png' alt='Logo'></img>
             </a>
         </div>
