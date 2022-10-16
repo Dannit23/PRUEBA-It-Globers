@@ -10,22 +10,17 @@ function Contact() {
   return (
         <form onSubmit={handleSubmit}>
             <fieldset>
-                <div className={styles.btnInput}>
-                <input className={styles.input}
-                   id="email"
-                   type="email" 
-                   name="email"
-                   placeholder='Ingresa tu email'
-                />
-                <ValidationError 
-                   prefix="Email" 
-                   field="email"
-                   errors={state.errors}
-                />
-                <button className={styles.button} type="submit" disabled={state.submitting}>
-                   <img className={styles.iconoFlecha} src="https://i.imgur.com/yeIiham.png" alt="flecha a la derecha"></img>
-                </button>
-                </div>
+                <label className={styles.container}>
+                    <input className={styles.input}
+                       id="email"
+                       type="email" 
+                       name="email"
+                       placeholder='Ingresa tu email'
+                    />
+                    <button className={styles.button} type="submit" disabled={state.submitting}>
+                       <img className={styles.iconoFlecha} src="https://i.imgur.com/yeIiham.png" alt="flecha a la derecha"></img>
+                    </button>
+                </label>
             </fieldset>
         </form>
   );

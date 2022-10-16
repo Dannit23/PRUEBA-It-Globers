@@ -1,28 +1,19 @@
 .iconoFlecha {
-    width: 25%;
+    width: 30%;
 }
 
 input {
-    margin: 0px;
-    padding: 0px;
-    width: 30%;
-    outline: none;
-    height: 30px;
+    padding: 0px 15px;
+    width: 400px;
+    height: 40px;
 }
 
 .button {
     border: none;
     background-color: transparent;
-    transform: translateX(2px);
+    bottom: 0;
     top: 0;
     right: 0px;
-    z-index: 2;
-    top: 2px;
-    height: 30px;
-    cursor: pointer;
+    transform: translate(-95%, -5%);    
 }
 
-.buttonIn {
-    width: 300px;
-    position: relative;
-}
